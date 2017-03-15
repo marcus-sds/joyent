@@ -16,3 +16,4 @@ copy swift-tps.sh
 copy swift-accesslog-read.py
 
 4. add swift-tps.sh to crontab
+>* * * * * su - root -c "cd /app/manta-tpscheck;bash ./swift-tps.sh"
