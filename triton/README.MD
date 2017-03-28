@@ -9,3 +9,7 @@ sdcadm post-setup cloudapi</br>
 
 ### compute install
 sdc-server setup -s {CN_UUID} hostname={hostname}</br>
+
+### channel
+sdcadm channel set release</br>
+sdcadm channel list</br>
