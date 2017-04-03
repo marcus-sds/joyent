@@ -13,3 +13,6 @@ sdc-server setup -s {CN_UUID} hostname={hostname}</br>
 ### channel
 sdcadm channel set release</br>
 sdcadm channel list</br>
+
+### allow local image create
+echo '{"metadata": {"IMGAPI_ALLOW_LOCAL_CREATE_IMAGE_FROM_VM": true}}' | sapiadm update $(sdc-sapi /services?name=imgapi | json -H 0.uuid)<br>
