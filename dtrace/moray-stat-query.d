@@ -1,7 +1,6 @@
 #!/usr/sbin/dtrace -s
 #pragma D option quiet
 #pragma D option dynvarsize=16m
-#pragma D option bufpolicy=ring
 #pragma D option bufsize=10m
 
 moray*:::query-start
