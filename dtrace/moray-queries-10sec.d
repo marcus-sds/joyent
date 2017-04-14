@@ -10,7 +10,6 @@
  */
 
 #pragma D option quiet
-#pragma D option bufpolicy=ring
 #pragma D option bufsize=10m
 
 moray*:::query-start
