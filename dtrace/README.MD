@@ -8,3 +8,5 @@
 애토 초는 10-18초로서 광자 연구에서 사용되는 용어이다.<br>
 
 ### dtrace basic
+#### oneline dtrace
+http://www.brendangregg.com/DTrace/dtrace_oneliners.txt
